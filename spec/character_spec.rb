@@ -6,7 +6,7 @@ describe D2Hero::Character do
     @char = D2Hero::Character.new(:name => "Gandalf",
                                   :character_class => :sorceress,
                                   :level => 99,
-                                  :strenght => 20,
+                                  :strength => 20,
                                   :energy => 999,
                                   :dexterity => 100,
                                   :vitality => 999)
@@ -24,8 +24,8 @@ describe D2Hero::Character do
     @char.level.should == 99
   end
 
-  it "give access to strenght" do
-    @char.strenght.should == 20
+  it "give access to strength" do
+    @char.strength.should == 20
   end
 
   it "give access to energy" do
