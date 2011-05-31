@@ -1,3 +1,9 @@
+require 'character'
+
 module D2Hero
-  # Your code goes here...
+  extend self
+
+  def load(filename)
+
+  end
 end
