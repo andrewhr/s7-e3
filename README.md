@@ -5,6 +5,8 @@ Currently only 1.09 save files are supported. The library permits to
 extract the Character Name, class, level and attributes (str, dex, vit,
 energy).
 
+This work was based on [pellegrino's SC2Refinery](https://github.com/pellegrino/s7-e3), where I discovered the bindata library and learn a new way to use rSpec! :)
+
 ## About the format
 
 I'm follow the Trevin Beattie's specification, [found here](http://www.ladderhall.com/ericjwin/109/trevin/trevinfileformat.html).
